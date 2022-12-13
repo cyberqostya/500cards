@@ -15,14 +15,14 @@ function setSpriteSize(sprite) {
 }
 
 // Функция добавления тени карточке
-function setShadow(sprite) {
-  const dropShadowFilter = new PIXI.filters.DropShadowFilter();
-  dropShadowFilter.color = 0x000000;
-  dropShadowFilter.alpha = 0.7;
-  dropShadowFilter.blur = 6;
-  dropShadowFilter.distance = 10;
-  sprite.filters = [dropShadowFilter];
-}
+// function setShadow(sprite) {
+//   const dropShadowFilter = new PIXI.filters.DropShadowFilter();
+//   dropShadowFilter.color = 0x000000;
+//   dropShadowFilter.alpha = 0.7;
+//   dropShadowFilter.blur = 6;
+//   dropShadowFilter.distance = 10;
+//   sprite.filters = [dropShadowFilter];
+// }
 
 // Добавление Background
 if(window.innerWidth > 3840) {
