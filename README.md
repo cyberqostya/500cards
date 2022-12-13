@@ -1,6 +1,6 @@
 # 500 карточек на PIXI.js
 
-https://cyberqostya.github.io/500cards/
+<a href="https://cyberqostya.github.io/500cards/" target="_blank">https://cyberqostya.github.io/500cards/</a>
 
 1. Полный экран 5120\*2880 разрешение
 2. 500 карточек png: тень у каждой
