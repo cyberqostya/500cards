@@ -25,7 +25,15 @@ function setShadow(sprite) {
 }
 
 // Добавление Background
-sprites.background = PIXI.Sprite.from("./images/background.jpg");
+if(window.innerWidth > 3840) {
+  sprites.background = PIXI.Sprite.from("./images/background5K.jpg");
+} else if(window.innerWidth > 2560) {
+sprites.background = PIXI.Sprite.from("./images/background4K.jpg");
+} else if(window.innerWidth > 1920) {
+sprites.background = PIXI.Sprite.from("./images/background2K.jpg");
+} else {
+sprites.background = PIXI.Sprite.from("./images/background1K.jpg");
+}
 setSpriteSize(sprites.background);
 app.stage.addChild(sprites.background);
 
